@@ -9,36 +9,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be95cabb-4644-4d48-81fa-f16368d5c743" name="Changes" comment="first_commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/database_conf/db_initialize/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/database_conf/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/src/main/java/org/example/declarations/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/src/main/java/org/example/declarations/HibernateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/src/main/java/org/example/implementations/Colors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/src/main/java/org/example/implementations/dao/CatDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/src/main/java/org/example/implementations/dao/OwnerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/src/main/java/org/example/implementations/entities/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/src/main/java/org/example/implementations/entities/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/src/main/java/org/example/implementations/util/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/src/test/java/TestCrudCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/access-layer/src/test/java/TestCrudOwner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/src/main/java/org/example/controllers/CatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/src/main/java/org/example/declarations/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/src/main/java/org/example/declarations/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/src/main/java/org/example/impl/controllers/GetByIdCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/src/main/java/org/example/impl/controllers/UpdateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/org/example/declarations/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/org/example/impl/dto/CatDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/org/example/impl/dto/OwnerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/org/example/impl/services/CatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/org/example/impl/services/OwnerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/access-layer/src/main/java/org/example/implementations/entities/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/access-layer/src/main/java/org/example/implementations/entities/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/controller/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/service/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +90,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/AppData/Roaming/JetBrains/IntelliJIdea2022.2/scratches/tech-labs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/AppData/Roaming/JetBrains/IntelliJIdea2022.2/scratches/ByBinPy/lab3&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -125,8 +111,13 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example.implemetations" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.impl.controllers" />
+      <recent name="org.example.declarations" />
+      <recent name="org.example.impl.services" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestCrudOwner">
+  <component name="RunManager" selected="Gradle.TestCrudCat">
     <configuration name="TestCrud" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -141,6 +132,29 @@
             <option value=":access-layer:test" />
             <option value="--tests" />
             <option value="&quot;TestCrud&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCrudCat" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":access-layer:test" />
+            <option value="--tests" />
+            <option value="&quot;TestCrudCat&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -219,36 +233,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestCrud.getItemsOwners" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":access-layer:test" />
-            <option value="--tests" />
-            <option value="&quot;TestCrud.getItemsOwners&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestCrudCat" />
         <item itemvalue="Gradle.TestCrudOwner" />
         <item itemvalue="Gradle.TestCrud.deleteOwner" />
         <item itemvalue="Gradle.TestCrud.deleteByIdOwner" />
         <item itemvalue="Gradle.TestCrud" />
-        <item itemvalue="Gradle.TestCrud.getItemsOwners" />
       </list>
     </recent_temporary>
   </component>
@@ -274,6 +265,7 @@
       <workItem from="1711194949511" duration="705000" />
       <workItem from="1711268628904" duration="39000" />
       <workItem from="1712004208793" duration="343000" />
+      <workItem from="1712400677306" duration="5620000" />
     </task>
     <servers />
   </component>
@@ -298,11 +290,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service/build.gradle</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.orm/hibernate-core/6.4.4.Final/edfea9e835dbad199324cfe27013753e27eef931/hibernate-core-6.4.4.Final-sources.jar!/org/hibernate/event/internal/DefaultPersistEventListener.java</url>
           <line>82</line>
